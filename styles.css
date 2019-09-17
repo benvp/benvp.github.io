@@ -1,0 +1,70 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.page {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg {
+  background: rgba(168,244,247,1);
+  background: -moz-linear-gradient(-45deg, rgba(168,244,247,1) 0%, rgba(12,183,209,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(168,244,247,1)), color-stop(100%, rgba(12,183,209,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(168,244,247,1) 0%, rgba(12,183,209,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(168,244,247,1) 0%, rgba(12,183,209,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(168,244,247,1) 0%, rgba(12,183,209,1) 100%);
+  background: linear-gradient(135deg, rgba(168,244,247,1) 0%, rgba(12,183,209,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8f4f7', endColorstr='#0cb7d1', GradientType=1 );
+}
+
+.flex--center {
+  justify-content: center;
+}
+
+.flex--middle {
+  align-items: center;
+}
+
+.text--center {
+  text-align: center;
+}
+
+a {
+  color: #1c5963;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+a:visited {
+  color: #1c5963;
+  background: #ffd95f;
+  color: #4e3c03;
+}
+
+a:active {
+  color: #1c5963;
+  background: #ffd95f;
+  color: #4e3c03;
+}
+
+a:link {
+  color: #1c5963;
+  transition: all;
+  transition-duration: 0.2s;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all;
+  transition-duration: 0.2s;
+  background: #ffd95f;
+  color: #4e3c03;
+}
+
+.hello {
+  font-size: 164px;
+}
